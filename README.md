@@ -22,14 +22,14 @@
 
  
 
-<center>
-<div style="display: flex; justify-content: center;">
+ 
+<div style="display: flex; justify-content: center; align-items: center;">
     <img src="https://github.com/user-attachments/assets/2b67216a-99c3-4f4a-88f8-426cff0248f3" 
          style="width: 25%; height: 30%; margin: 10px;" />
     <img src="https://github.com/user-attachments/assets/1f38ec10-8b07-424e-8ff2-dea91c49e5ab" 
          style="width: 31%; height: 30%; margin: 10px;" />
 </div>
-</center>
+ 
  
 
 3. 因为图案有很多个，因此想到使用神经网络采用`LeNet-5` 作为图案的分类器 输入为`单通道` `30x30`的 `ROI`
