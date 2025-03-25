@@ -4,7 +4,7 @@
 
 
 <div align="center" float="left">
-<img src="https://avatars.githubusercontent.com/u/106224926?s=200&v=4"  style="width: 40%; margin: auto; display: block;" />
+<img src="https://avatars.githubusercontent.com/u/106224926?s=200&v=4"  style="width: 30%; margin: auto; display: block;" />
 </div>
 
 <br>
