@@ -37,6 +37,11 @@
 4. 针对识别到多个目标情况，可以加一个分类器去其他区域的图案，可以做到`准确率100%`。
 
 
+<video width="100%" height="80%" controls>
+  <source src="./image/showVideo.mp4" type="video/mp4">
+</video>
+
+
 #### 优缺点
 
 **优点**
@@ -51,9 +56,7 @@
 2. 需要对得到多个目标进行筛选得到最终目标
 3. ...
 
-<video width="100%" height="80%" controls>
-  <source src="https://github.com/user-attachments/assets/6f0700aa-6c86-446e-a70a-2b5157fbbb08" type="video/mp4">
-</video>
+
 
 
 <div align="center" float="left">
