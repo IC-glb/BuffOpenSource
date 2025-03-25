@@ -37,10 +37,13 @@
 4. 针对识别到多个目标情况，可以加一个分类器去其他区域的图案，可以做到`准确率100%`。
 
 
-<video width="100%" height="80%" controls>
-  <source src="./image/showVideo.mp4" type="video/mp4">
-</video>
+<div align="center" float="left">
+ <img src="./image/showgif.gif" 
+         style="width: 100%; margin: 10px;" />
+</div>
 
+  
+ 
 
 #### 优缺点
 
