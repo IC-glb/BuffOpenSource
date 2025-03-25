@@ -1,8 +1,12 @@
 <div align="center"> <h2>2024深圳技术大学|悍匠战队能量机关识别思路开源 </h2></div>
  
+<br></br>
 
-<img src="https://github.com/user-attachments/assets/02e50b4b-ce7c-4ab4-b4f7-c61ccb5c7d16"  style="width: 70%; margin: auto; display: block;" />
- 
+
+<div align="center" float="left">
+<img src="https://avatars.githubusercontent.com/u/106224926?s=200&v=4"  style="width: 70%; margin: auto; display: block;" />
+</div>
+
 <br>
 
  
@@ -105,7 +109,7 @@ graph TD;
 graph TD;
     A[初筛轮廓];
     B[初始化标志];
-    C[像素--->世界坐标系];
+    C[图像坐标--->世界坐标];
     D[是否第一次识别];
     E[距离图像中心点近];
     F[物理特征符合];
@@ -122,12 +126,12 @@ graph TD;
     I-->C;
     C-->|第一次识别为True|A1[R的世界坐标系]
 
-    H-->H1[R三维坐标转换像素坐标]
+    H-->H1[R世界坐标转换图像坐标]
     H1-->H2[标志数++]
     H2-->H3[是否触发标志位]
     H3-->H4[是]
     H3-->H5[否]
-    H5-->F1[目前世界转像素坐标即为R坐标]
+    H5-->F1[通过世界坐标转换图像坐标得到R在图像上的坐标]
     H4 -->|RUpate= True|H6[进入R世界坐标修正程序]
     H6 --> H7[距离上一时刻R坐标相近]
     H6 --> H8[满足R的物理特征]
