@@ -23,7 +23,7 @@
  
 
  
-<div style="display: flex; justify-content: center; align-items: center;">
+<div align="center" float="left">
     <img src="https://github.com/user-attachments/assets/2b67216a-99c3-4f4a-88f8-426cff0248f3" 
          style="width: 25%; height: 30%; margin: 10px;" />
     <img src="https://github.com/user-attachments/assets/1f38ec10-8b07-424e-8ff2-dea91c49e5ab" 
