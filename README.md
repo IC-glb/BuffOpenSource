@@ -56,9 +56,9 @@
 </video>
 
 
-
+<div align="center" float="left">
 <center><h3>  详细的识别逻辑 <h3></center>
-
+</div>
 
 ### 1. 概念介绍
 
